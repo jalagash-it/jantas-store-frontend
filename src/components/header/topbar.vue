@@ -43,16 +43,16 @@
                         Мой Акаунт
                     </Dropdown>
                 </div>
-                <!-- <div class="topbar__item">
+                 <!-- <div class="topbar__item">
                     <Dropdown :items="currencies" @itemClick="setCurrency($event.currency)">
                         Currency <span class="topbar__item-value">{{ currency.code }}</span>
                     </Dropdown>
-                </div> -->
-                <!-- <div class="topbar__item">
+                </div> 
+                <div class="topbar__item">
                     <Dropdown :items="languages" :with-icons="true" @itemClick="setLanguage($event.locale)">
                         Language: <span class="topbar__item-value">{{ language.code }}</span>
                     </Dropdown>
-                </div> -->
+                </div>  -->
             </div>
         </div>
     </div>
