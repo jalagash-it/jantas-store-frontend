@@ -113,8 +113,8 @@ export default class ShopPageCategory extends Vue {
 
   get breadcrumb(): ILink[] {
     const breadcrumb = [
-      { title: "Home", url: this.$url.home() },
-      { title: "Shop", url: this.$url.catalog() },
+      { title: "Главная", url: this.$url.home() },
+      { title: "Магазин", url: this.$url.catalog() },
     ];
 
     if (this.category) {

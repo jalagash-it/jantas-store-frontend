@@ -10,10 +10,10 @@
                         <footer-links
                             title="Информация"
                             :links="[
-                                {title: 'About Us', url: ''},
+                                {title: 'О нас', url: ''},
                                 {title: 'Delivery Information', url: ''},
                                 {title: 'Privacy Policy', url: ''},
-                                {title: 'Brands', url: ''},
+                                {title: 'Бренды', url: ''},
                                 {title: 'Contact Us', url: ''},
                                 {title: 'Returns', url: ''},
                                 {title: 'Site Map', url: ''}

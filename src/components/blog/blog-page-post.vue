@@ -2,8 +2,8 @@
     <div>
         <PageHeader
             :breadcrumb="[
-                { title: 'Home', url: '/' },
-                { title: 'Blog', url: '/' },
+                { title: 'Главная', url: '/' },
+                { title: 'Блог', url: '/' },
                 { title: 'Latest News', url: '/' },
             ]"
         />

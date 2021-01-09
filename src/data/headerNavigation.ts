@@ -132,7 +132,7 @@ const dataHeaderNavigation: INav = [
         }
     },
     {
-        title: 'Blog',
+        title: 'Блок',
         url: '/blog/category-classic',
         submenu: {
             type: 'menu',
@@ -152,7 +152,7 @@ const dataHeaderNavigation: INav = [
         submenu: {
             type: 'menu',
             menu: [
-                { title: 'About Us', url: '/site/about-us' },
+                { title: 'О нас', url: '/site/about-us' },
                 { title: 'Contact Us', url: '/site/contact-us' },
                 { title: 'Contact Us Alt', url: '/site/contact-us-alt' },
                 { title: '404', url: '/site/not-found' },

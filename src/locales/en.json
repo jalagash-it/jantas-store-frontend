@@ -1,7 +1,7 @@
 {
-  "header": {
-    "topbar": {
-      "aboutUs": "About Us"
+    "header": {
+        "topbar": {
+            "aboutUs": "О нас"
+        }
     }
-  }
 }

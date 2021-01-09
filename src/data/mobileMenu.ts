@@ -3,7 +3,7 @@ import { IMobileMenu } from '~/interfaces/menus/mobile-menu'
 const dataMobileMenu: IMobileMenu = [
     {
         type: 'link',
-        title: 'Home',
+        title: 'Главная',
         url: '/',
         children: [
             { type: 'link', title: 'Home 1', url: '/' },
@@ -46,7 +46,7 @@ const dataMobileMenu: IMobileMenu = [
 
     {
         type: 'link',
-        title: 'Shop',
+        title: 'Магазин',
         url: '/shop/category-grid-3-columns-sidebar',
         children: [
             {
@@ -115,7 +115,7 @@ const dataMobileMenu: IMobileMenu = [
         title: 'Pages',
         url: '/site/about-us',
         children: [
-            { type: 'link', title: 'About Us', url: '/site/about-us' },
+            { type: 'link', title: 'О нас', url: '/site/about-us' },
             { type: 'link', title: 'Contact Us', url: '/site/contact-us' },
             { type: 'link', title: 'Contact Us Alt', url: '/site/contact-us-alt' },
             { type: 'link', title: '404', url: '/site/not-found' },

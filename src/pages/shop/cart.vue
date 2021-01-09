@@ -2,10 +2,10 @@
     <div>
         <client-only>
             <PageHeader
-                title="Shopping Cart"
+                title="Корзина"
                 :breadcrumb="[
-                    { title: 'Home', url: '' },
-                    { title: 'Shopping Cart', url: '' },
+                    { title: 'Главная', url: '' },
+                    { title: 'Корзина', url: '' },
                 ]"
             />
 
@@ -67,7 +67,7 @@
                                         </li>
                                     </ul>
                                 </td>
-                                <td class="cart-table__column cart-table__column--price" data-title="Price">
+                                <td class="cart-table__column cart-table__column--price" data-title="Цена">
                                     {{ $price(item.price) }}
                                 </td>
                                 <td class="cart-table__column cart-table__column--quantity" data-title="Quantity">

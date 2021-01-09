@@ -75,8 +75,8 @@ export default class ShopPageProduct extends Vue {
 
     get breadcrumb (): ILink[] {
         return [
-            { title: 'Home', url: this.$url.home() },
-            { title: 'Shop', url: this.$url.catalog() },
+            { title: 'Главная', url: this.$url.home() },
+            { title: 'Магазин', url: this.$url.catalog() },
             { title: this.product.name, url: this.$url.product(this.product) }
         ]
     }

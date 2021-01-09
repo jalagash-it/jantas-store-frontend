@@ -19,7 +19,7 @@ const getId = makeIdGenerator()
 const productsDef: IProductDef[] = [
     {
         slug: 'electric-planer-brandix-kl370090g-300-watts',
-        name: 'Electric Planer Brandix KL370090G 300 Watts',
+        name: 'Ноутбук Lenovo',
         price: 749,
         images: [
             '/images/products/product-1.jpg',

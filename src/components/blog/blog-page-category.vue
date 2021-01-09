@@ -3,7 +3,7 @@
         <PageHeader
             title="Latest News"
             :breadcrumb="[
-                { title: 'Home', url: '/' },
+                { title: 'Главная', url: '/' },
                 { title: 'Blog', url: '/' },
                 { title: 'Latest News', url: '/' },
             ]"

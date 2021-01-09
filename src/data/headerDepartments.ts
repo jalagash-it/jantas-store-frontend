@@ -83,7 +83,7 @@ const dataHeaderDepartments: INav = [
                         size: 3,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и ',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
@@ -158,7 +158,7 @@ const dataHeaderDepartments: INav = [
                         size: 4,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
@@ -216,7 +216,7 @@ const dataHeaderDepartments: INav = [
                         size: 6,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },

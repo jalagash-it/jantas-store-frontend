@@ -6,7 +6,7 @@
                 <div class="col-12 col-xl-10">
                     <div class="about-us__body">
                         <h1 class="about-us__title">
-                            About Us
+                            О нас
                         </h1>
                         <div class="about-us__text typography">
                             <p>
@@ -72,7 +72,7 @@ import CarouselSlide from '~/components/shared/carousel-slide.vue'
     components: { AppLink, Carousel, CarouselSlide },
     head () {
         return {
-            title: 'About Us'
+            title: 'О нас'
         }
     }
 })
