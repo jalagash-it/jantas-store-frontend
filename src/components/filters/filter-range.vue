@@ -12,7 +12,7 @@
             />
         </div>
         <div class="filter-price__title">
-            Price:
+            Цена
             <span class="filter-price__min-value">{{ $price(internalValue[0]) }}</span>
             –
             <span class="filter-price__max-value">{{ $price(internalValue[1]) }}</span>

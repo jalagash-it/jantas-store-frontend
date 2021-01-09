@@ -7,8 +7,8 @@
         <BlockProductsCarouselContainer
             v-slot:default="{ products, isLoading, tabs, handleTabChange }"
             :tabs="[
-                { id: 1, name: 'All', categorySlug: undefined },
-                { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
+                { id: 1, name: 'Все', categorySlug: undefined },
+                { id: 2, name: 'Компьютеры и ноутбуки', categorySlug: 'power-tools' },
                 { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
                 { id: 4, name: 'Plumbing', categorySlug: 'plumbing' }
             ]"
@@ -16,7 +16,7 @@
             :data-source="featuredProductsSource"
         >
             <BlockProductsCarousel
-                :title="$t('main.featuredProducts')"
+                :title="('Рекомендуемые товары')"
                 layout="grid-4"
                 :products="products"
                 :loading="isLoading"
@@ -28,14 +28,14 @@
         <BlockBanner />
 
         <BlockProducts
-            title="Bestsellers"
+            title="Ходовой товар"
             layout="large-first"
             :featured-product="(bestsellers || [])[0]"
             :products="(bestsellers || []).slice(1, 7)"
         />
 
         <BlockCategories
-            title="Popular Categories"
+            title="Популярные Категории"
             layout="classic"
             :categories="categories"
         />
@@ -43,8 +43,8 @@
         <BlockProductsCarouselContainer
             v-slot:default="{ products, isLoading, tabs, handleTabChange }"
             :tabs="[
-                { id: 1, name: 'All', categorySlug: undefined },
-                { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
+                { id: 1, name: 'Все', categorySlug: undefined },
+                { id: 2, name: 'Компьютеры и ноутбуки', categorySlug: 'power-tools' },
                 { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
                 { id: 4, name: 'Plumbing', categorySlug: 'plumbing' }
             ]"
@@ -52,7 +52,7 @@
             :data-source="latestProductsSource"
         >
             <BlockProductsCarousel
-                title="New Arrivals"
+                title="Новые Поступления"
                 layout="horizontal"
                 :rows="2"
                 :products="products"
@@ -63,7 +63,7 @@
         </BlockProductsCarouselContainer>
 
         <BlockPosts
-            title="Latest News"
+            title="Последние Новости"
             layout="list"
             :posts="posts"
         />
@@ -103,9 +103,9 @@ async function loadColumns () {
     const bestsellers = shopApi.getPopularProducts({ limit: 3 })
 
     return [
-        { title: 'Top Rated Products', products: await topRated },
-        { title: 'Special Offers', products: await specialOffers },
-        { title: 'Bestsellers', products: await bestsellers }
+        { title: 'Лучшие Продукты', products: await topRated },
+        { title: 'Специальные предложения', products: await specialOffers },
+        { title: 'Ходовой товар', products: await bestsellers }
     ]
 }
 

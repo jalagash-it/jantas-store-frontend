@@ -14,12 +14,12 @@ const dataMobileMenu: IMobileMenu = [
 
     {
         type: 'link',
-        title: 'Categories',
+        title: 'Категории',
         url: '',
         children: [
             {
                 type: 'link',
-                title: 'Power Tools',
+                title: 'Компьютеры и ноутбуки',
                 url: '',
                 children: [
                     { type: 'link', title: 'Engravers', url: '' },

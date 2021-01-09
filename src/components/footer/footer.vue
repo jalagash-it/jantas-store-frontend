@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-6 col-md-3 col-lg-2">
                         <footer-links
-                            title="Information"
+                            title="Информация"
                             :links="[
                                 {title: 'About Us', url: ''},
                                 {title: 'Delivery Information', url: ''},
@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-6 col-md-3 col-lg-2">
                         <footer-links
-                            title="My Account"
+                            title="Мой Акаунт"
                             :links="[
                                 {title: 'Store Location', url: ''},
                                 {title: 'Order History', url: ''},

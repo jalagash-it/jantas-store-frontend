@@ -11,7 +11,7 @@ const categoriesDef: ICategoryDef[] = [
         items: 272,
         children: [
             {
-                name: 'Power Tools',
+                name: 'Компьютеры и ноутбуки',
                 slug: 'power-tools',
                 image: 'assets/images/categories/category-1.jpg',
                 items: 370,
