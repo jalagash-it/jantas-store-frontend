@@ -1,7 +1,7 @@
 <template>
     <div class="site-footer__widget footer-newsletter">
         <h5 class="footer-newsletter__title">
-            Newsletter
+            Новостная рассылка
         </h5>
         <div class="footer-newsletter__text">
             Praesent pellentesque volutpat ex, vitae auctor lorem pulvinar mollis felis at lacinia.
@@ -13,11 +13,11 @@
                 id="footer-newsletter-address"
                 class="footer-newsletter__form-input form-control"
                 type="text"
-                placeholder="Email Address..."
+                placeholder="Email адрес..."
             >
 
             <button class="footer-newsletter__form-button btn btn-primary">
-                Subscribe
+               Подписаться
             </button>
         </form>
 

@@ -72,7 +72,7 @@
                         <span class="text-success">In Stock</span>
                     </li>
                     <li>
-                        Brand:
+                     Марка:
                         <AppLink to="/">
                             Wakita
                         </AppLink>
@@ -193,7 +193,7 @@
                                         :disabled="!quantity"
                                         @click="run"
                                     >
-                                        Add to cart
+                                        В корзину
                                     </button>
                                 </AsyncAction>
                             </div>

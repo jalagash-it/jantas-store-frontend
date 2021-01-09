@@ -1,7 +1,7 @@
 <template>
     <div class="site-footer__widget footer-contacts">
         <h5 class="footer-contacts__title">
-            Contact Us
+            Связаться с нами
         </h5>
 
         <div class="footer-contacts__text">

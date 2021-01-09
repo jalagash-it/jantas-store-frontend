@@ -2,7 +2,7 @@ import { INav } from '~/interfaces/menus/nav'
 
 const dataHeaderDepartments: INav = [
     {
-        title: 'Power Tools',
+        title: 'Компьютеры и ноутбуки',
         url: '/',
         submenu: {
             type: 'megamenu',
@@ -17,7 +17,7 @@ const dataHeaderDepartments: INav = [
                         size: 3,
                         links: [
                             {
-                                title: 'Power Tools',
+                                title: 'Компьютеры и ноутбуки',
                                 url: '',
                                 children: [
                                     { title: 'Engravers', url: '' },
@@ -87,7 +87,7 @@ const dataHeaderDepartments: INav = [
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
-                                    { title: 'Power Tools', url: '' },
+                                    { title: 'Компьютеры и ноутбуки', url: '' },
                                     { title: 'Hand Tools', url: '' },
                                     { title: 'Measuring Tool', url: '' }
                                 ]
@@ -162,7 +162,7 @@ const dataHeaderDepartments: INav = [
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
-                                    { title: 'Power Tools', url: '' },
+                                    { title: 'Компьютеры и ноутбуки', url: '' },
                                     { title: 'Hand Tools', url: '' },
                                     { title: 'Measuring Tool', url: '' }
                                 ]
@@ -220,7 +220,7 @@ const dataHeaderDepartments: INav = [
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
-                                    { title: 'Power Tools', url: '' },
+                                    { title: 'Компьютеры и ноутбуки', url: '' },
                                     { title: 'Hand Tools', url: '' },
                                     { title: 'Measuring Tool', url: '' }
                                 ]

@@ -39,7 +39,7 @@
                                     Stock Status
                                 </th>
                                 <th class="wishlist__column wishlist__column--price">
-                                    Price
+                                    Цена
                                 </th>
                                 <th class="wishlist__column wishlist__column--tocart" aria-label="Add to cart" />
                                 <th class="wishlist__column wishlist__column--remove" aria-label="Remove" />
@@ -87,7 +87,7 @@
                                             ]"
                                             @click="run"
                                         >
-                                            Add To Cart
+                                            В корзину
                                         </button>
                                     </AsyncAction>
                                 </td>

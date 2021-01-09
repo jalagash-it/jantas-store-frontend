@@ -31,7 +31,7 @@
                             </ul>
                             <div class="category-card__all">
                                 <AppLink :to="$url.category(category)">
-                                    Show All
+                                   Показать все
                                 </AppLink>
                             </div>
                             <div class="category-card__products">

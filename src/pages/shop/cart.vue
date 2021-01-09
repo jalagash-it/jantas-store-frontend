@@ -36,7 +36,7 @@
                                     Product
                                 </th>
                                 <th class="cart-table__column cart-table__column--price">
-                                    Price
+                                    Цена
                                 </th>
                                 <th class="cart-table__column cart-table__column--quantity">
                                     Quantity

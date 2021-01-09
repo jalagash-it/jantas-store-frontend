@@ -2,7 +2,7 @@ import { INav } from '~/interfaces/menus/nav'
 
 const dataHeaderNavigation: INav = [
     {
-        title: 'Home',
+        title: 'Главная',
         url: '/',
         submenu: {
             type: 'menu',
@@ -25,7 +25,7 @@ const dataHeaderNavigation: INav = [
                         size: 6,
                         links: [
                             {
-                                title: 'Power Tools',
+                                title: 'Компьютеры и ноутбуки',
                                 url: '',
                                 children: [
                                     { title: 'Engravers', url: '' },
@@ -80,7 +80,7 @@ const dataHeaderNavigation: INav = [
         }
     },
     {
-        title: 'Shop',
+        title: 'Магазин',
         url: '/shop/category-grid-3-columns-sidebar',
         submenu: {
             type: 'menu',
