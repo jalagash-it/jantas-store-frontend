@@ -108,7 +108,7 @@ export default class ShopPageCategory extends Vue {
   }
 
   get pageTitle() {
-    return this.category ? this.category.name : "Shop";
+    return this.category ? this.category.name : "Магазин";
   }
 
   get breadcrumb(): ILink[] {

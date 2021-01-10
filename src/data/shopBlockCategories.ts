@@ -51,7 +51,7 @@ const dataShopBlockCategories: IShopCategory[] = [
         type: 'shop',
         id: 7,
         slug: 'power-tools',
-        name: 'Hand Tools',
+        name: 'Клавиатуры и мышки Hand Tools ',
         items: 134,
         image: '/images/categories/category-2.jpg',
         customFields: {},

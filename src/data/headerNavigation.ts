@@ -14,7 +14,7 @@ const dataHeaderNavigation: INav = [
         }
     },
     {
-        title: 'Megamenu',
+        title: 'Электронной коммерции',
         url: '',
         submenu: {
             type: 'megamenu',
@@ -35,7 +35,8 @@ const dataHeaderNavigation: INav = [
                                 ]
                             },
                             {
-                                title: 'Machine Tools',
+                                /* title: 'Machine Tools',*/
+                                title: 'Сетевое оборудование',
                                 url: '',
                                 children: [
                                     { title: 'Thread Cutting', url: '' },
@@ -52,7 +53,7 @@ const dataHeaderNavigation: INav = [
                         size: 6,
                         links: [
                             {
-                                title: 'Hand Tools',
+                                title: 'Hand Tools Клавиатуры и мышки',
                                 url: '',
                                 children: [
                                     { title: 'Screwdrivers', url: '' },
@@ -64,7 +65,7 @@ const dataHeaderNavigation: INav = [
                                 ]
                             },
                             {
-                                title: 'Garden Equipment',
+                                title: 'Garden Equipment Комплектующие',
                                 url: '',
                                 children: [
                                     { title: 'Motor Pumps', url: '' },
@@ -105,7 +106,7 @@ const dataHeaderNavigation: INav = [
                         { title: 'Product Sidebar', url: '/shop/product-sidebar' }
                     ]
                 },
-                { title: 'Cart', url: '/shop/cart' },
+                { title: 'Корзина', url: '/shop/cart' },
                 { title: 'Checkout', url: '/shop/checkout' },
                 { title: 'Order Success', url: '/shop/checkout/success' },
                 { title: 'Wishlist', url: '/shop/wishlist' },

@@ -99,7 +99,7 @@ const dataHeaderDepartments: INav = [
         }
     },
     {
-        title: 'Hand Tools',
+        title: 'Клавиатуры и мышки Hand Tools',
         url: '',
         submenu: {
             type: 'megamenu',
