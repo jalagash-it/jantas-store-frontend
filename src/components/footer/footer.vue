@@ -10,7 +10,7 @@
                         <footer-links
                             title="Информация"
                             :links="[
-                                {title: 'О нас', url: ''},
+                                {title: 'О нас', url: 'site/about-us'},
                                 {title: 'Delivery Information', url: ''},
                                 {title: 'Privacy Policy', url: ''},
                                 {title: 'Бренды', url: ''},
@@ -24,7 +24,6 @@
                         <footer-links
                             title="Мой Акаунт"
                             :links="[
-                                {title: 'Store Location', url: ''},
                                 {title: 'Order History', url: ''},
                                 {title: 'Wish List', url: ''},
                                 {title: 'Newsletter', url: ''},

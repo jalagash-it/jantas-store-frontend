@@ -133,7 +133,7 @@ const dataHeaderNavigation: INav = [
         }
     },
     {
-        title: 'Блок',
+        title: 'Блог',
         url: '/blog/category-classic',
         submenu: {
             type: 'menu',

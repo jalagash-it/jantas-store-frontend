@@ -1,41 +1,38 @@
 <template>
-    <div
-        :class="[
-            'product-tabs',
-            {'product-tabs--layout--sidebar': withSidebar}
-        ]"
-    >
-        <div class="product-tabs__list">
-            <div class="product-tabs__list-body">
-                <div class="product-tabs__list-container container">
-                    <button
-                        v-for="tab in tabs"
-                        :key="tab.key"
-                        :class="[
-                            'product-tabs__item',
-                            {'product-tabs__item--active': current === tab.key}
-                        ]"
-                        type="button"
-                        @click="current = tab.key"
-                    >
-                        {{ tab.title }}
-                    </button>
-                </div>
-            </div>
+  <div
+    :class="['product-tabs', { 'product-tabs--layout--sidebar': withSidebar }]"
+  >
+    <div class="product-tabs__list">
+      <div class="product-tabs__list-body">
+        <div class="product-tabs__list-container container">
+          <button
+            v-for="tab in tabs"
+            :key="tab.key"
+            :class="[
+              'product-tabs__item',
+              { 'product-tabs__item--active': current === tab.key },
+            ]"
+            type="button"
+            @click="current = tab.key"
+          >
+            {{ tab.title }}
+          </button>
         </div>
-        <div class="product-tabs__content">
-            <div
-                v-for="tab in tabs"
-                :key="tab.key"
-                :class="[
-                    'product-tabs__pane',
-                    {'product-tabs__pane--active': current === tab.key}
-                ]"
-            >
-                <component :is="tab.content" />
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="product-tabs__content">
+      <div
+        v-for="tab in tabs"
+        :key="tab.key"
+        :class="[
+          'product-tabs__pane',
+          { 'product-tabs__pane--active': current === tab.key },
+        ]"
+      >
+        <component :is="tab.content" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -52,9 +49,9 @@ export default class ProductTabs extends Vue {
     current = 'description'
 
     tabs = [
-        { key: 'description', title: 'Description', content: ProductTabDescription },
-        { key: 'specification', title: 'Specification', content: ProductTabSpecification },
-        { key: 'reviews', title: 'Reviews', content: ProductTabReviews }
+        { key: 'description', title: 'Описание', content: ProductTabDescription },
+        { key: 'specification', title: 'Спецификация', content: ProductTabSpecification },
+        { key: 'reviews', title: 'Отзывы', content: ProductTabReviews }
     ]
 }
 

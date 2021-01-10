@@ -174,7 +174,7 @@ const dataHeaderDepartments: INav = [
         }
     },
     {
-        title: 'Machine Tools',
+        title: 'Сетевое оборудование Machine Tools',
         url: '',
         submenu: {
             type: 'megamenu',

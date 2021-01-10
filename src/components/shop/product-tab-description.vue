@@ -1,6 +1,6 @@
 <template>
     <div class="typography">
-        <h3>Product Full Description</h3>
+        <h3>Полное описание продукта</h3>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum, diam
             non iaculis finibus, ipsum arcu sollicitudin dolor, ut cursus sapien sem sed

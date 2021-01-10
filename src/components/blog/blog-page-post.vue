@@ -4,7 +4,7 @@
             :breadcrumb="[
                 { title: 'Главная', url: '/' },
                 { title: 'Блог', url: '/' },
-                { title: 'Latest News', url: '/' },
+                { title: 'Последние новости', url: '/' },
             ]"
         />
 

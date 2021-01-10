@@ -13,19 +13,19 @@
                         Контакты
                     </AppLink>
                 </div>
-                <div class="topbar__item topbar__item--link">
+                <!-- <div class="topbar__item topbar__item--link">
                     <AppLink to="/" class="topbar-link">
                         Store Location
                     </AppLink>
-                </div>
-                <div class="topbar__item topbar__item--link">
+                </div> -->
+                <!-- <div class="topbar__item topbar__item--link">
                     <AppLink :to="$url.trackOrder()" class="topbar-link">
                         Track Order
                     </AppLink>
-                </div>
+                </div> -->
                 <div class="topbar__item topbar__item--link">
                     <AppLink :to="$url.blog()" class="topbar-link">
-                        Блок
+                        Блог
                     </AppLink>
                 </div>
                 <div class="topbar__spring" />
