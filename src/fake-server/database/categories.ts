@@ -6,7 +6,7 @@ const getId = makeIdGenerator()
 /* Фильтр категориялар*/ 
 const categoriesDef: ICategoryDef[] = [
     {
-        name: 'Компьютеры и',
+        name: 'Компьютеры и Моноблоки ',
         slug: 'instruments',
         items: 272,
         children: [
@@ -221,7 +221,7 @@ const categoriesDef: ICategoryDef[] = [
         ]
     },
     {
-        name: 'Electronics',
+        name: 'Ноутбуки',
         slug: 'electronics',
         items: 54
     },

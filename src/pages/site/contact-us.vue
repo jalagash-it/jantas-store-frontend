@@ -29,7 +29,7 @@
                     </p>
 
                     <p>
-                      <strong>Opening Hours</strong>
+                      <strong>Часы работы</strong>
                       <br />
                       Monday to Friday: 8am-8pm
                       <br />
@@ -57,35 +57,35 @@
                   <form>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="form-name">Your Name</label>
+                        <label for="form-name">Имя</label>
                         <input
                           id="form-name"
                           class="form-control"
                           type="text"
-                          placeholder="Your Name"
+                          placeholder="Имя"
                         />
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="form-email">Email</label>
+                        <label for="form-email">Емайл</label>
                         <input
                           id="form-email"
                           class="form-control"
                           type="email"
-                          placeholder="Email Address"
+                          placeholder="Емайл Адрес"
                         />
                       </div>
                     </div>
                     <div class="form-group">
-                      <label for="form-subject">Subject</label>
+                      <label for="form-subject">Предмет</label>
                       <input
                         id="form-subject"
                         class="form-control"
                         type="text"
-                        placeholder="Subject"
+                        placeholder="Предмет"
                       />
                     </div>
                     <div class="form-group">
-                      <label for="form-message">Message</label>
+                      <label for="form-message">Сообщение</label>
                       <textarea
                         id="form-message"
                         class="form-control"
@@ -93,7 +93,7 @@
                       />
                     </div>
                     <button type="submit" class="btn btn-primary">
-                      Send Message
+                     Отправить сообщение
                     </button>
                   </form>
                 </div>

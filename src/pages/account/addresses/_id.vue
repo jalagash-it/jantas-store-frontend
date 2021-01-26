@@ -2,7 +2,7 @@
     <AccountLayout>
         <div class="card">
             <div class="card-header">
-                <h5>Edit Address</h5>
+                <h5>Изменить Адрес</h5>
             </div>
             <div class="card-divider" />
             <div class="card-body">
@@ -10,7 +10,7 @@
                     <div class="col-12 col-lg-10 col-xl-8">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="checkout-first-name">First Name</label>
+                                <label for="checkout-first-name">Имя</label>
                                 <input
                                     id="checkout-first-name"
                                     class="form-control"
@@ -19,7 +19,7 @@
                                 >
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="checkout-last-name">Last Name</label>
+                                <label for="checkout-last-name">Фамилия</label>
                                 <input
                                     id="checkout-last-name"
                                     class="form-control"
@@ -31,8 +31,8 @@
 
                         <div class="form-group">
                             <label for="checkout-company-name">
-                                Company Name
-                                <span class="text-muted">(Optional)</span>
+                               Название компании
+                                <span class="text-muted">(Необязательный)</span>
                             </label>
                             <input
                                 id="checkout-company-name"
@@ -42,12 +42,12 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="checkout-country">Country</label>
+                            <label for="checkout-country">Страна</label>
                             <select id="checkout-country" class="form-control form-control-select2">
-                                <option>Select a country...</option>
-                                <option>United States</option>
-                                <option>Russia</option>
-                                <option>Italy</option>
+                                <option>Выберите страну...</option>
+                                <option>Шымкент </option>
+                                <option>Алматы</option>
+                                <option>Қызылорда</option>
                                 <option>France</option>
                                 <option>Ukraine</option>
                                 <option>Germany</option>
@@ -55,7 +55,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="checkout-street-address">Street Address</label>
+                            <label for="checkout-street-address">адрес улицы</label>
                             <input
                                 id="checkout-street-address"
                                 class="form-control"
@@ -65,8 +65,8 @@
                         </div>
                         <div class="form-group">
                             <label for="checkout-address">
-                                Apartment, suite, unit etc.
-                                <span class="text-muted">(Optional)</span>
+                Квартира, люкс, квартира и т. Д.
+                                <span class="text-muted">(Необязательный)</span>
                             </label>
                             <input
                                 id="checkout-address"
@@ -75,7 +75,7 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="checkout-city">Town / City</label>
+                            <label for="checkout-city">Город / Город</label>
                             <input
                                 id="checkout-city"
                                 class="form-control"
@@ -83,7 +83,7 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="checkout-state">State / County</label>
+                            <label for="checkout-state">Штат / округ</label>
                             <input
                                 id="checkout-state"
                                 class="form-control"
@@ -91,7 +91,7 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="checkout-postcode">Postcode / ZIP</label>
+                            <label for="checkout-postcode">Почтовый индекс </label>
                             <input
                                 id="checkout-postcode"
                                 class="form-control"
@@ -101,7 +101,7 @@
 
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="checkout-email">Email address</label>
+                                <label for="checkout-email">Емайл адрес</label>
                                 <input
                                     id="checkout-email"
                                     class="form-control"
@@ -110,7 +110,7 @@
                                 >
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="checkout-phone">Phone</label>
+                                <label for="checkout-phone">Телефон</label>
                                 <input
                                     id="checkout-phone"
                                     class="form-control"
@@ -122,7 +122,7 @@
 
                         <div class="form-group mt-3 mb-0">
                             <button class="btn btn-primary" type="button">
-                                Save
+                                Сохранить
                             </button>
                         </div>
                     </div>

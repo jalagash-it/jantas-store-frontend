@@ -1,11 +1,11 @@
 <template>
     <div>
         <PageHeader
-            title="My Account"
+            title="Мой Аккаунт"
             :breadcrumb="[
                 {title: 'Главная', url: ''},
                 {title: 'Breadcrumb', url: ''},
-                {title: 'My Account', url: ''},
+                {title: 'Мой Аккаунт', url: ''},
             ]"
         />
 
@@ -15,7 +15,7 @@
                     <div class="col-12 col-lg-3 d-flex">
                         <div class="account-nav flex-grow-1">
                             <h4 class="account-nav__title">
-                                Navigation
+                                Навигация
                             </h4>
                             <ul>
                                 <NuxtLink
@@ -61,14 +61,14 @@ export default class AccountLayout extends Vue {
     data () {
         return {
             items: [
-                { title: 'Dashboard', link: this.$url.accountDashboard() },
-                { title: 'Edit Profile', link: this.$url.accountProfile() },
-                { title: 'Order History', link: this.$url.accountOrders() },
-                { title: 'Order Details', link: this.$url.accountOrder({ id: 5 }) },
-                { title: 'Addresses', link: this.$url.accountAddresses() },
-                { title: 'Edit Address', link: this.$url.accountAddress({ id: 5 }) },
+                { title: 'Приборная панель', link: this.$url.accountDashboard() },
+                { title: 'Редактировать Профиль', link: this.$url.accountProfile() },
+                { title: 'История заказов', link: this.$url.accountOrders() },
+                { title: 'Детали заказа', link: this.$url.accountOrder({ id: 5 }) },
+                { title: 'Адреса', link: this.$url.accountAddresses() },
+                { title: ' Изменить адрес', link: this.$url.accountAddress({ id: 5 }) },
                 { title: 'Пароль', link: this.$url.accountPassword() },
-                { title: 'Logout', link: this.$url.signIn() }
+                { title: 'Выход из системы', link: this.$url.signIn() }
             ]
         }
     }

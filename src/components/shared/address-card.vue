@@ -31,7 +31,7 @@
             </div>
             <div class="address-card__row">
                 <div class="address-card__row-title">
-                    Phone Number
+                    Телефон номер
                 </div>
                 <div class="address-card__row-content">
                     {{ address.phone }}
@@ -39,7 +39,7 @@
             </div>
             <div class="address-card__row">
                 <div class="address-card__row-title">
-                    Email Address
+                    Емайл адрес
                 </div>
                 <div class="address-card__row-content">
                     {{ address.email }}

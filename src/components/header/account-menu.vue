@@ -2,27 +2,27 @@
     <div class="account-menu">
         <form class="account-menu__form">
             <div class="account-menu__form-title">
-                Log In to Your Account
+             Войдите в свой аккаунт
             </div>
             <div class="form-group">
-                <label for="header-signin-email" class="sr-only">Email address</label>
+                <label for="header-signin-email" class="sr-only">Адрес электронной почты</label>
                 <input id="header-signin-email" type="email" class="form-control form-control-sm" placeholder="Email address">
             </div>
             <div class="form-group">
-                <label for="header-signin-password" class="sr-only">Password</label>
+                <label for="header-signin-password" class="sr-only">Парорль</label>
                 <div class="account-menu__form-forgot">
                     <input id="header-signin-password" type="password" class="form-control form-control-sm" placeholder="Password">
-                    <a href="" class="account-menu__form-forgot-link">Forgot?</a>
+                    <a href="" class="account-menu__form-forgot-link">Забыл?</a>
                 </div>
             </div>
             <div class="form-group account-menu__form-button">
                 <button type="submit" class="btn btn-primary btn-sm">
-                    Login
+                    Логин
                 </button>
             </div>
             <div class="account-menu__form-link">
                 <AppLink :to="$url.signUp()">
-                    Create An Account
+                   Создать учетную запись
                 </AppLink>
             </div>
         </form>
@@ -44,22 +44,22 @@
         <ul class="account-menu__links">
             <li>
                 <AppLink :to="$url.accountProfile()">
-                    Edit Profile
+                   Редактировать Профиль
                 </AppLink>
             </li>
             <li>
                 <AppLink :to="$url.accountOrders()">
-                    Order History
+                   История Заказов
                 </AppLink>
             </li>
             <li>
                 <AppLink :to="$url.accountAddresses()">
-                    Addresses
+                  Адрес
                 </AppLink>
             </li>
             <li>
                 <AppLink :to="$url.accountPassword()">
-                    Password
+                    Пароль
                 </AppLink>
             </li>
         </ul>
@@ -67,7 +67,7 @@
         <ul class="account-menu__links">
             <li>
                 <AppLink :to="$url.signOut()">
-                    Logout
+                    Выход 
                 </AppLink>
             </li>
         </ul>

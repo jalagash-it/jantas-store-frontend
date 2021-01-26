@@ -20,7 +20,7 @@ const productsDef: IProductDef[] = [
     {
         slug: 'electric-planer-brandix-kl370090g-300-watts',
         name: 'Ноутбук Lenovo',
-        price: 749,
+        price: 500000,
         images: [
             '/images/products/product-1.jpg',
             '/images/products/product-1-1.jpg'

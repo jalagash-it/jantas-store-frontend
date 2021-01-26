@@ -4,7 +4,7 @@
             <AppLink to="/" class="addresses-list__item addresses-list__item--new">
                 <div class="addresses-list__plus" />
                 <div class="btn btn-secondary btn-sm">
-                    Add New
+                    Добавить Новое
                 </div>
             </AppLink>
 
@@ -17,11 +17,11 @@
                     class="addresses-list__item"
                 >
                     <AppLink :to="$url.accountAddress(address)">
-                        Edit
+                        Редактировать
                     </AppLink>
                     &nbsp;&nbsp;
                     <AppLink to="/">
-                        Remove
+                       Удалить
                     </AppLink>
                 </AddressCard>
                 <div :key="address.id + '-divider'" class="addresses-list__divider" />

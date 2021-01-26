@@ -134,7 +134,7 @@
           </table>
           <div class="cart__actions">
             <form class="cart__coupon-form">
-              <label for="input-coupon-code" class="sr-only">Password</label>
+              <label for="input-coupon-code" class="sr-only">Пароль</label>
               <input
                 id="input-coupon-code"
                 class="form-control"

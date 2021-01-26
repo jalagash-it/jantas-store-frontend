@@ -7,14 +7,14 @@
                         <img :src="$url.img('/images/avatars/avatar-3.jpg')" alt="">
                     </div>
                     <div class="profile-card__name">
-                        Helena Garcia
+                        Жантас 
                     </div>
                     <div class="profile-card__email">
                         stroyka@example.com
                     </div>
                     <div class="profile-card__edit">
                         <AppLink :to="$url.accountProfile()" class="btn btn-secondary btn-sm">
-                            Edit Profile
+                           Редактировать Профиль
                         </AppLink>
                     </div>
                 </div>
@@ -27,13 +27,13 @@
                 :badge="address.default ? 'Default Address' : ''"
             >
                 <AppLink :to="$url.accountAddress({ id: 5 })">
-                    Edit Address
+                    Редактировать Адрес
                 </AppLink>
             </AddressCard>
 
             <div class="dashboard__orders card">
                 <div class="card-header">
-                    <h5>Recent Orders</h5>
+                    <h5>Последние Заказы</h5>
                 </div>
                 <div class="card-divider" />
                 <div class="card-table">
@@ -41,10 +41,10 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Order</th>
-                                    <th>Date</th>
-                                    <th>Status</th>
-                                    <th>Total</th>
+                                    <th>Заказ</th>
+                                    <th>Время</th>
+                                    <th>Статус</th>
+                                    <th>Весь</th>
                                 </tr>
                             </thead>
                             <tbody>

@@ -7,7 +7,7 @@ const dataMobileMenu: IMobileMenu = [
         url: '/',
         children: [
             { type: 'link', title: 'Home 1', url: '/' },
-            { type: 'link', title: 'Home 2', url: '/home-two' },
+            // { type: 'link', title: 'Home 2', url: '/home-two' },
             { type: 'link', title: 'Offcanvas Cart', url: '/offcanvas-cart' }
         ]
     },
@@ -59,7 +59,7 @@ const dataMobileMenu: IMobileMenu = [
                     { type: 'link', title: '5 Columns Full', url: '/shop/category-grid-5-columns-full' }
                 ]
             },
-            { type: 'link', title: 'Shop List', url: '/shop/category-list' },
+            { type: 'link', title: 'Список Магазинов', url: '/shop/category-list' },
             { type: 'link', title: 'Shop Right Sidebar', url: '/shop/category-right-sidebar' },
             {
                 type: 'link',
@@ -76,7 +76,7 @@ const dataMobileMenu: IMobileMenu = [
             { type: 'link', title: 'Order Success', url: '/shop/checkout/success' },
             { type: 'link', title: 'Wishlist', url: '/shop/wishlist' },
             { type: 'link', title: 'Compare', url: '/shop/compare' },
-            { type: 'link', title: 'Track Order', url: '/shop/track-order' }
+            // { type: 'link', title: 'Track Order', url: '/shop/track-order' }
         ]
     },
 

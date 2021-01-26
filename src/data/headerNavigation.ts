@@ -7,7 +7,7 @@ const dataHeaderNavigation: INav = [
         submenu: {
             type: 'menu',
             menu: [
-                { title: 'Home 1', url: '/' },
+                { title: 'Главная', url: '/' },
                 { title: 'Home 2', url: '/home-two' },
                 { title: 'Offcanvas Cart', url: '/offcanvas-cart' }
             ]
@@ -95,7 +95,7 @@ const dataHeaderNavigation: INav = [
                         { title: '5 Columns Full', url: '/shop/category-grid-5-columns-full' }
                     ]
                 },
-                { title: 'Shop List', url: '/shop/category-list' },
+                { title: 'Список Магазинов', url: '/shop/category-list' },
                 { title: 'Shop Right Sidebar', url: '/shop/category-right-sidebar' },
                 {
                     title: 'Product',
@@ -107,28 +107,28 @@ const dataHeaderNavigation: INav = [
                     ]
                 },
                 { title: 'Корзина', url: '/shop/cart' },
-                { title: 'Checkout', url: '/shop/checkout' },
-                { title: 'Order Success', url: '/shop/checkout/success' },
-                { title: 'Wishlist', url: '/shop/wishlist' },
-                { title: 'Compare', url: '/shop/compare' },
-                { title: 'Track Order', url: '/shop/track-order' }
+                { title: 'Проверка', url: '/shop/checkout' },
+                { title: 'Успех Того', url: '/shop/checkout/success' },
+                { title: 'Список желаний', url: '/shop/wishlist' },
+                { title: 'Сравнивать', url: '/shop/compare' },
+                // { title: 'Track Order', url: '/shop/track-order' }
             ]
         }
     },
     {
-        title: 'Account',
+        title: 'Аккаунт',
         url: '/account',
         submenu: {
             type: 'menu',
             menu: [
-                { title: 'Login', url: '/account/login' },
-                { title: 'Dashboard', url: '/account/dashboard' },
-                { title: 'Edit Profile', url: '/account/profile' },
-                { title: 'Order History', url: '/account/orders' },
-                { title: 'Order Details', url: '/account/orders/5' },
-                { title: 'Address Book', url: '/account/addresses' },
-                { title: 'Edit Address', url: '/account/addresses/5' },
-                { title: 'Change Password', url: '/account/password' }
+                { title: 'Авторизоваться', url: '/account/login' },
+                { title: 'Приборная панель', url: '/account/dashboard' },
+                { title: 'Редактировать Профиль', url: '/account/profile' },
+                { title: 'История заказов', url: '/account/orders' },
+                { title: 'Детали заказа', url: '/account/orders/5' },
+                { title: 'Адресная книга', url: '/account/addresses' },
+                { title: 'Изменить Адрес', url: '/account/addresses/5' },
+                { title: 'Изменить пароль', url: '/account/password' }
             ]
         }
     },
@@ -138,29 +138,29 @@ const dataHeaderNavigation: INav = [
         submenu: {
             type: 'menu',
             menu: [
-                { title: 'Blog Classic', url: '/blog/category-classic' },
-                { title: 'Blog Grid', url: '/blog/category-grid' },
-                { title: 'Blog List', url: '/blog/category-list' },
-                { title: 'Blog Left Sidebar', url: '/blog/category-left-sidebar' },
-                { title: 'Post Page', url: '/blog/post-classic' },
-                { title: 'Post Without Sidebar', url: '/blog/post-full' }
+                { title: 'Классический блог', url: '/blog/category-classic' },
+                { title: 'Сетка блога', url: '/blog/category-grid' },
+                { title: 'Список блогов', url: '/blog/category-list' },
+                { title: 'Блог Левая боковая панель', url: '/blog/category-left-sidebar' },
+                { title: 'Страница Сообщения', url: '/blog/post-classic' },
+                { title: 'Сообщение Без Боковой Панели', url: '/blog/post-full' }
             ]
         }
     },
     {
-        title: 'Pages',
+        title: 'Страницы',
         url: '/site/about-us',
         submenu: {
             type: 'menu',
             menu: [
                 { title: 'О нас', url: '/site/about-us' },
-                { title: 'Contact Us', url: '/site/contact-us' },
-                { title: 'Contact Us Alt', url: '/site/contact-us-alt' },
+                { title: 'Связаться с нами', url: '/site/contact-us' },
+                { title: 'Свяжитесь с Нами Alt', url: '/site/contact-us-alt' },
                 { title: '404', url: '/site/not-found' },
-                { title: 'Terms And Conditions', url: '/site/terms' },
+                { title: 'Условия и положения', url: '/site/terms' },
                 { title: 'FAQ', url: '/site/faq' },
-                { title: 'Components', url: '/site/components' },
-                { title: 'Typography', url: '/site/typography' }
+                { title: 'Компоненты', url: '/site/components' },
+                { title: 'Типография', url: '/site/typography' }
             ]
         }
     },
