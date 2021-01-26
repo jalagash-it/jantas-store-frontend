@@ -1,11 +1,11 @@
 <template>
     <div>
         <PageHeader
-            title="Latest News"
+            title="Последние новости"
             :breadcrumb="[
-                { title: 'Home', url: '/' },
-                { title: 'Blog', url: '/' },
-                { title: 'Latest News', url: '/' },
+                { title: 'Главная', url: '/' },
+                { title: 'Блог', url: '/' },
+                { title: 'Последние новости', url: '/' },
             ]"
         />
 

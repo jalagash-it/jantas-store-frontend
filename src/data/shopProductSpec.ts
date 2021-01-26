@@ -2,9 +2,9 @@ import { ISpec } from '~/interfaces/spec'
 
 const dataShopProductSpec: ISpec = [
     {
-        name: 'General',
+        name: 'Общие',
         attributes: [
-            { name: 'Material', value: 'Aluminium, Plastic' },
+            { name: 'Материал', value: 'Aluminium, Plastic' },
             { name: 'Engine Type', value: 'Brushless' },
             { name: 'Battery Voltage', value: '18 V' },
             { name: 'Battery Type', value: 'Li-lon' },
@@ -14,7 +14,7 @@ const dataShopProductSpec: ISpec = [
         ]
     },
     {
-        name: 'Dimensions',
+        name: 'Размеры',
         attributes: [
             { name: 'Length', value: '99 mm' },
             { name: 'Width', value: '207 mm' },

@@ -3,7 +3,7 @@
         <PageHeader
             title="Offcanvas Cart"
             :breadcrumb="[
-                { title: 'Home', url: '/' },
+                { title: 'Главная', url: '/' },
                 { title: 'Offcanvas Cart', url: '/' },
             ]"
         />

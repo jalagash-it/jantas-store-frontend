@@ -8,7 +8,7 @@
           </div>
           <div class="block-features__content">
             <div class="block-features__title">Бесплатная доставка</div>
-            <div class="block-features__subtitle">При заказе от 50 $</div>
+            <div class="block-features__subtitle">При заказе от 50000 тг</div>
           </div>
         </div>
         <div class="block-features__divider" />

@@ -3,7 +3,7 @@
         <div :class="['post__header', 'post-header', `post-header--layout--${layout}`]">
             <div class="post-header__categories">
                 <AppLink to="/">
-                    Latest news
+                    Последние новости
                 </AppLink>
             </div>
             <h1 class="post-header__title">

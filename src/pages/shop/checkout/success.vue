@@ -5,14 +5,14 @@
                 <div class="order-success__header">
                     <Check100Svg class="order-success__icon" />
                     <h1 class="order-success__title">
-                        Thank you
+                       Спасибо
                     </h1>
                     <div class="order-success__subtitle">
-                        Your order has been received
+                        Ваш заказ получен
                     </div>
                     <div class="order-success__actions">
                         <AppLink to="/" class="btn btn-xs btn-secondary">
-                            Go To Homepage
+                         Перейти На Главную Страницу
                         </AppLink>
                     </div>
                 </div>
@@ -20,19 +20,19 @@
                 <div class="order-success__meta">
                     <ul class="order-success__meta-list">
                         <li class="order-success__meta-item">
-                            <span class="order-success__meta-title">Order number:</span>
+                            <span class="order-success__meta-title">Номер заказа:</span>
                             <span class="order-success__meta-value">#{{ order.id }}</span>
                         </li>
                         <li class="order-success__meta-item">
-                            <span class="order-success__meta-title">Created at:</span>
+                            <span class="order-success__meta-title">Создано в:</span>
                             <span class="order-success__meta-value">{{ order.date }}</span>
                         </li>
                         <li class="order-success__meta-item">
-                            <span class="order-success__meta-title">Total:</span>
+                            <span class="order-success__meta-title">Весь:</span>
                             <span class="order-success__meta-value">{{ order.total }}</span>
                         </li>
                         <li class="order-success__meta-item">
-                            <span class="order-success__meta-title">Payment method:</span>
+                            <span class="order-success__meta-title">Способ оплаты:</span>
                             <span class="order-success__meta-value">{{ order.paymentMethod }}</span>
                         </li>
                     </ul>
@@ -44,13 +44,13 @@
                             <thead class="order-list__header">
                                 <tr>
                                     <th class="order-list__column-label" :colspan="2">
-                                        Product
+                                        Продукт
                                     </th>
                                     <th class="order-list__column-quantity">
-                                        Qty
+                                        Количество
                                     </th>
                                     <th class="order-list__column-total">
-                                        Total
+                                        Весь
                                     </th>
                                 </tr>
                             </thead>
@@ -115,8 +115,7 @@
                             <tfoot class="order-list__footer">
                                 <tr>
                                     <th class="order-list__column-label" :colspan="3">
-                                        Total
-                                    </th>
+                                        Весь                                    </th>
                                     <td class="order-list__column-total">
                                         {{ $price(order.total) }}
                                     </td>
@@ -160,7 +159,7 @@ import dataAccountOrderDetails from '~/data/accountOrderDetails'
     components: { Check100Svg, AppLink, AddressCard },
     head () {
         return {
-            title: 'Order Success'
+            title: 'Успех Того'
         }
     }
 })

@@ -2,14 +2,14 @@
     <AccountLayout>
         <div class="card">
             <div class="card-header">
-                <h5>Change Password</h5>
+                <h5>Изменить пароль</h5>
             </div>
             <div class="card-divider" />
             <div class="card-body">
                 <div class="row no-gutters">
                     <div class="col-12 col-lg-7 col-xl-6">
                         <div class="form-group">
-                            <label for="password-current">Current Password</label>
+                            <label for="password-current">Текущий пароль</label>
                             <input
                                 id="password-current"
                                 class="form-control"
@@ -18,7 +18,7 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="password-new">New Password</label>
+                            <label for="password-new">Новый пароль</label>
                             <input
                                 id="password-new"
                                 class="form-control"
@@ -27,7 +27,7 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="password-confirm">Reenter New Password</label>
+                            <label for="password-confirm"> Повторите новый пароль</label>
                             <input
                                 id="password-confirm"
                                 class="form-control"
@@ -38,7 +38,7 @@
 
                         <div class="form-group mt-5 mb-0">
                             <button type="button" class="btn btn-primary">
-                                Change
+                                Изменить
                             </button>
                         </div>
                     </div>

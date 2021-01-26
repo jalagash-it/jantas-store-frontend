@@ -4,16 +4,16 @@
             <div class="order-header">
                 <div class="order-header__actions">
                     <AppLink :to="$url.accountOrders()" class="btn btn-xs btn-secondary">
-                        Back to list
+                        Вернуться к списку
                     </AppLink>
                 </div>
                 <h5 class="order-header__title">
-                    Order #{{ order.id }}
+                    Заказ #{{ order.id }}
                 </h5>
                 <div class="order-header__subtitle">
-                    Was placed on
+                  Был помещен на
                     <mark class="order-header__date">{{ order.date }}</mark>
-                    and is currently
+        и в настоящее время
                     <mark class="order-header__status">{{ order.status }}</mark>.
                 </div>
             </div>
@@ -23,8 +23,8 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Product</th>
-                                <th>Total</th>
+                                <th>Продукт</th>
+                                <th>Весь</th>
                             </tr>
                         </thead>
                         <tbody class="card-table__body card-table__body--merge-rows">
@@ -38,7 +38,7 @@
                             class="card-table__body card-table__body--merge-rows"
                         >
                             <tr>
-                                <th>Subtotal</th>
+                                <th>Промежуточный итог</th>
                                 <td>{{ $price(order.subtotal) }}</td>
                             </tr>
                             <tr v-for="(item, index) in order.additionalLines" :key="index">
@@ -48,7 +48,7 @@
                         </tbody>
                         <tfoot>
                             <tr>
-                                <th>Total</th>
+                                <th>Весь</th>
                                 <td>{{ $price(order.total) }}</td>
                             </tr>
                         </tfoot>

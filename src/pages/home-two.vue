@@ -7,7 +7,7 @@
         <BlockProductsCarouselContainer
             v-slot:default="{ products, isLoading, tabs, handleTabChange }"
             :tabs="[
-                { id: 1, name: 'All', categorySlug: undefined },
+                { id: 1, name: 'Все', categorySlug: undefined },
                 { id: 2, name: 'Компьютеры и ноутбуки', categorySlug: 'power-tools' },
                 { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
                 { id: 4, name: 'Plumbing', categorySlug: 'plumbing' }
@@ -16,7 +16,7 @@
             :data-source="featuredProductsSource"
         >
             <BlockProductsCarousel
-                title="Featured Products"
+                title="Рекомендуемые товары"
                 layout="grid-5"
                 :rows="2"
                 :products="products"
@@ -29,7 +29,7 @@
         <BlockBanner />
 
         <BlockProducts
-            title="Bestsellers"
+            title="Ходовой товар"
             layout="large-last"
             :featured-product="(bestsellers || [])[0]"
             :products="(bestsellers || []).slice(1, 7)"
@@ -53,7 +53,7 @@
             :data-source="latestProductsSource"
         >
             <BlockProductsCarousel
-                title="New Arrivals"
+                title="Новые Поступления"
                 layout="grid-5"
                 :products="products"
                 :loading="isLoading"
@@ -63,7 +63,7 @@
         </BlockProductsCarouselContainer>
 
         <BlockPosts
-            title="Latest News"
+            title="Последние новости"
             layout="grid-3"
             :posts="posts"
         />

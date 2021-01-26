@@ -1,7 +1,7 @@
 <template>
     <div class="spec">
         <h3 class="spec__header">
-            Specification
+            Спецификация
         </h3>
         <div v-for="(section, index) in sections" :key="index" class="spec__section">
             <h4 class="spec__section-title">

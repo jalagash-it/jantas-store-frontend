@@ -1,12 +1,12 @@
 <template>
     <div>
-        <PageHeader
+        <!-- <PageHeader
             :breadcrumb="[
                 { title: 'Home', url: '' },
                 { title: 'Track Order', url: '' },
             ]"
-        />
-
+        /> -->
+<!-- 
         <div class="block">
             <div class="container">
                 <div class="row justify-content-center">
@@ -53,23 +53,23 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
 <script lang="ts">
 
-import { Vue, Component } from 'vue-property-decorator'
-import PageHeader from '~/components/shared/page-header.vue'
+// import { Vue, Component } from 'vue-property-decorator'
+// import PageHeader from '~/components/shared/page-header.vue'
 
-@Component({
-    components: { PageHeader },
-    head () {
-        return {
-            title: 'Track Order'
-        }
-    }
-})
-export default class Page extends Vue { }
+// @Component({
+//     components: { PageHeader },
+//     head () {
+//         return {
+//             title: 'Track Order'
+//         }
+//     }
+// })
+// export default class Page extends Vue { }
 
-</script>
+// </script>

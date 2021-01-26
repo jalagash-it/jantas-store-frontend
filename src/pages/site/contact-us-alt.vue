@@ -1,10 +1,10 @@
 <template>
     <div>
         <PageHeader
-            title="Contact Us"
+            title="Связаться с нами"
             :breadcrumb="[
-                { title: 'Home', url: '' },
-                { title: 'Contact Us', url: '' },
+                { title: 'Главная', url: '' },
+                { title: 'Связаться с нами', url: '' },
             ]"
         />
 
@@ -22,7 +22,7 @@
                             <div class="row">
                                 <div class="col-12 col-lg-6 pb-4 pb-lg-0">
                                     <h4 class="contact-us__header card-title">
-                                        Our Address
+                                        Наш Адрес
                                     </h4>
 
                                     <div class="contact-us__address">
@@ -35,7 +35,7 @@
                                         </p>
 
                                         <p>
-                                            <strong>Opening Hours</strong>
+                                            <strong>Часы работы</strong>
                                             <br>
                                             Monday to Friday: 8am-8pm
                                             <br>
@@ -45,7 +45,7 @@
                                         </p>
 
                                         <p>
-                                            <strong>Comment</strong>
+                                            <strong>Комментарий</strong>
                                             <br>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing
                                             elit. Curabitur suscipit suscipit mi, non tempor
@@ -57,13 +57,13 @@
 
                                 <div class="col-12 col-lg-6">
                                     <h4 class="contact-us__header card-title">
-                                        Leave us a Message
+                                       Оставьте нам сообщение
                                     </h4>
 
                                     <form>
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
-                                                <label for="form-name">Your Name</label>
+                                                <label for="form-name">Имя</label>
                                                 <input
                                                     id="form-name"
                                                     class="form-control"
@@ -72,7 +72,7 @@
                                                 >
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label for="form-email">Email</label>
+                                                <label for="form-email">Емайл</label>
                                                 <input
                                                     id="form-email"
                                                     class="form-control"
@@ -82,7 +82,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="form-subject">Subject</label>
+                                            <label for="form-subject">Предмет</label>
                                             <input
                                                 id="form-subject"
                                                 class="form-control"
@@ -91,11 +91,11 @@
                                             >
                                         </div>
                                         <div class="form-group">
-                                            <label for="form-message">Message</label>
+                                            <label for="form-message">Сообщение</label>
                                             <textarea id="form-message" class="form-control" :rows="4" />
                                         </div>
                                         <button type="submit" class="btn btn-primary">
-                                            Send Message
+                                          Отправить сообщение
                                         </button>
                                     </form>
                                 </div>

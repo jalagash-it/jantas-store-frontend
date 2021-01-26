@@ -3,15 +3,15 @@ import { ICategoryDef } from '../interfaces/categories'
 import { IBaseCategory, IShopCategory } from '~/interfaces/category'
 
 const getId = makeIdGenerator()
-
+/* Фильтр категориялар*/ 
 const categoriesDef: ICategoryDef[] = [
     {
-        name: 'Instruments',
+        name: 'Компьютеры и Моноблоки ',
         slug: 'instruments',
         items: 272,
         children: [
             {
-                name: 'Компьютеры и ноутбуки',
+                name: 'Клавиатуры и мышки',
                 slug: 'power-tools',
                 image: 'assets/images/categories/category-1.jpg',
                 items: 370,
@@ -221,12 +221,12 @@ const categoriesDef: ICategoryDef[] = [
         ]
     },
     {
-        name: 'Electronics',
+        name: 'Ноутбуки',
         slug: 'electronics',
         items: 54
     },
     {
-        name: 'Computers',
+        name: 'Компьютеры',
         slug: 'computers',
         items: 421
     },

@@ -5,7 +5,7 @@ const dataBlogWidgetCategories: IBlogCategory[] = [
         type: 'blog',
         id: 1,
         slug: 'latest-news',
-        name: 'Latest News',
+        name: 'Последние новости',
         customFields: {}
     },
     {

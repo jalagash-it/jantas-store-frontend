@@ -2,7 +2,7 @@
     <AccountLayout>
         <div class="card">
             <div class="card-header">
-                <h5>Order History</h5>
+                <h5>История заказов</h5>
             </div>
             <div class="card-divider" />
             <div class="card-table">
@@ -10,10 +10,10 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Order</th>
-                                <th>Date</th>
-                                <th>Status</th>
-                                <th>Total</th>
+                                <th>Заказ</th>
+                                <th>Дата</th>
+                                <th>Статус</th>
+                                <th>Весь</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -27,7 +27,7 @@
                                 <td>{{ order.status }}</td>
                                 <td>
                                     {{ $price(order.total) }}
-                                    for
+                                   для
                                     {{ order.quantity }}
                                     item(s)
                                 </td>

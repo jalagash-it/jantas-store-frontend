@@ -83,7 +83,7 @@ const dataHeaderDepartments: INav = [
                         size: 3,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и ',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
@@ -99,7 +99,7 @@ const dataHeaderDepartments: INav = [
         }
     },
     {
-        title: 'Hand Tools',
+        title: 'Клавиатуры и мышки Hand Tools',
         url: '',
         submenu: {
             type: 'megamenu',
@@ -158,7 +158,7 @@ const dataHeaderDepartments: INav = [
                         size: 4,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },
@@ -174,7 +174,7 @@ const dataHeaderDepartments: INav = [
         }
     },
     {
-        title: 'Machine Tools',
+        title: 'Сетевое оборудование Machine Tools',
         url: '',
         submenu: {
             type: 'megamenu',
@@ -216,7 +216,7 @@ const dataHeaderDepartments: INav = [
                         size: 6,
                         links: [
                             {
-                                title: 'Instruments',
+                                title: 'Компьютеры и',
                                 url: '',
                                 children: [
                                     { title: 'Welding Equipment', url: '' },

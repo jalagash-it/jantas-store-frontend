@@ -3,11 +3,11 @@ import { IMobileMenu } from '~/interfaces/menus/mobile-menu'
 const dataMobileMenu: IMobileMenu = [
     {
         type: 'link',
-        title: 'Home',
+        title: 'Главная',
         url: '/',
         children: [
             { type: 'link', title: 'Home 1', url: '/' },
-            { type: 'link', title: 'Home 2', url: '/home-two' },
+            // { type: 'link', title: 'Home 2', url: '/home-two' },
             { type: 'link', title: 'Offcanvas Cart', url: '/offcanvas-cart' }
         ]
     },
@@ -46,7 +46,7 @@ const dataMobileMenu: IMobileMenu = [
 
     {
         type: 'link',
-        title: 'Shop',
+        title: 'Магазин',
         url: '/shop/category-grid-3-columns-sidebar',
         children: [
             {
@@ -59,7 +59,7 @@ const dataMobileMenu: IMobileMenu = [
                     { type: 'link', title: '5 Columns Full', url: '/shop/category-grid-5-columns-full' }
                 ]
             },
-            { type: 'link', title: 'Shop List', url: '/shop/category-list' },
+            { type: 'link', title: 'Список Магазинов', url: '/shop/category-list' },
             { type: 'link', title: 'Shop Right Sidebar', url: '/shop/category-right-sidebar' },
             {
                 type: 'link',
@@ -76,7 +76,7 @@ const dataMobileMenu: IMobileMenu = [
             { type: 'link', title: 'Order Success', url: '/shop/checkout/success' },
             { type: 'link', title: 'Wishlist', url: '/shop/wishlist' },
             { type: 'link', title: 'Compare', url: '/shop/compare' },
-            { type: 'link', title: 'Track Order', url: '/shop/track-order' }
+            // { type: 'link', title: 'Track Order', url: '/shop/track-order' }
         ]
     },
 
@@ -115,7 +115,7 @@ const dataMobileMenu: IMobileMenu = [
         title: 'Pages',
         url: '/site/about-us',
         children: [
-            { type: 'link', title: 'About Us', url: '/site/about-us' },
+            { type: 'link', title: 'О нас', url: '/site/about-us' },
             { type: 'link', title: 'Contact Us', url: '/site/contact-us' },
             { type: 'link', title: 'Contact Us Alt', url: '/site/contact-us-alt' },
             { type: 'link', title: '404', url: '/site/not-found' },

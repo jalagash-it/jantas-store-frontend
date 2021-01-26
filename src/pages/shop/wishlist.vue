@@ -1,10 +1,10 @@
 <template>
     <div>
         <PageHeader
-            title="Wishlist"
+            title="Список желаний"
             :breadcrumb="[
-                { title: 'Home', url: '' },
-                { title: 'Wishlist', url: '' },
+                { title: 'Главная', url: '' },
+                { title: 'Список желаний', url: '' },
             ]"
         />
 
@@ -13,11 +13,11 @@
                 <div class="container">
                     <div class="block-empty__body">
                         <div class="block-empty__message">
-                            Your wish list is empty!
+                           Ваш список желаний пуст!
                         </div>
                         <div class="block-empty__actions">
                             <AppLink to="/" class="btn btn-primary btn-sm">
-                                Continue
+                              Продолжать
                             </AppLink>
                         </div>
                     </div>
@@ -30,13 +30,13 @@
                         <thead class="wishlist__head">
                             <tr class="wishlist__row">
                                 <th class="wishlist__column wishlist__column--image">
-                                    Image
+                                    Фото
                                 </th>
                                 <th class="wishlist__column wishlist__column--product">
-                                    Product
+                                    Продукт
                                 </th>
                                 <th class="wishlist__column wishlist__column--stock">
-                                    Stock Status
+                                   На Складе
                                 </th>
                                 <th class="wishlist__column wishlist__column--price">
                                     Цена
@@ -62,13 +62,13 @@
                                     <div class="wishlist__product-rating">
                                         <Rating :value="item.rating" />
                                         <div class="wishlist__product-rating-legend">
-                                            {{ item.reviews }} Reviews
+                                            {{ item.reviews }} Обзоры
                                         </div>
                                     </div>
                                 </td>
                                 <td class="wishlist__column wishlist__column--stock">
                                     <div class="badge badge-success">
-                                        In Stock
+                                       в наличии
                                     </div>
                                 </td>
                                 <td class="wishlist__column wishlist__column--price">
@@ -134,7 +134,7 @@ import Cross12Svg from '~/svg/cross-12.svg'
     components: { PageHeader, AppLink, Rating, AsyncAction, Cross12Svg },
     head () {
         return {
-            title: 'Wish List'
+            title: 'Список пожеланий'
         }
     }
 })

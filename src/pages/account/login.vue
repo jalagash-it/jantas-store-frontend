@@ -1,11 +1,11 @@
 <template>
     <div>
         <PageHeader
-            title="My Account"
+            title="Мой аккаунт"
             :breadcrumb="[
-                {title: 'Home', url: ''},
+                {title: 'Главная', url: ''},
                 {title: 'Breadcrumb', url: ''},
-                {title: 'My Account', url: ''},
+                {title: 'Мой Аккаунт', url: ''},
             ]"
         />
 
@@ -16,11 +16,11 @@
                         <div class="card flex-grow-1 mb-md-0">
                             <div class="card-body">
                                 <h3 class="card-title">
-                                    Login
+                                    Логин
                                 </h3>
                                 <form>
                                     <div class="form-group">
-                                        <label for="login-email">Email address</label>
+                                        <label for="login-email">Емайл Адрес</label>
                                         <input
                                             id="login-email"
                                             class="form-control"
@@ -29,7 +29,7 @@
                                         >
                                     </div>
                                     <div class="form-group">
-                                        <label for="login-password">Password</label>
+                                        <label for="login-password">Пароль</label>
                                         <input
                                             id="login-password"
                                             class="form-control"
@@ -37,7 +37,7 @@
                                             placeholder="Password"
                                         >
                                         <small class="form-text text-muted">
-                                            <a href="">Forgotten Password</a>
+                                            <a href="">Забыл пароль</a>
                                         </small>
                                     </div>
                                     <div class="form-group">
@@ -53,11 +53,11 @@
                                                     <Check9x7Svg class="input-check__icon" />
                                                 </span>
                                             </span>
-                                            <label class="form-check-label" for="login-remember">Remember Me</label>
+                                            <label class="form-check-label" for="login-remember">Запомнить Меня</label>
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary mt-4">
-                                        Login
+                                       Авторизоваться
                                     </button>
                                 </form>
                             </div>
@@ -67,11 +67,11 @@
                         <div class="card flex-grow-1 mb-0">
                             <div class="card-body">
                                 <h3 class="card-title">
-                                    Register
+                                    Зарегистрировать
                                 </h3>
                                 <form>
                                     <div class="form-group">
-                                        <label for="register-email">Email address</label>
+                                        <label for="register-email">Емайл Адрес</label>
                                         <input
                                             id="register-email"
                                             class="form-control"
@@ -80,7 +80,7 @@
                                         >
                                     </div>
                                     <div class="form-group">
-                                        <label for="register-password">Password</label>
+                                        <label for="register-password">Пароль</label>
                                         <input
                                             id="register-password"
                                             class="form-control"
@@ -89,7 +89,7 @@
                                         >
                                     </div>
                                     <div class="form-group">
-                                        <label for="register-confirm">Repeat Password</label>
+                                        <label for="register-confirm">Повторите Пароль</label>
                                         <input
                                             id="register-confirm"
                                             class="form-control"
@@ -98,7 +98,7 @@
                                         >
                                     </div>
                                     <button type="submit" class="btn btn-primary mt-4">
-                                        Register
+                                       Зарегистрировать
                                     </button>
                                 </form>
                             </div>

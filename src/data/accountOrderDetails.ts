@@ -8,7 +8,7 @@ const dataAccountOrderDetails: IOrder = {
         {
             id: 1,
             slug: 'electric-planer-brandix-kl370090g-300-watts',
-            name: 'Electric Planer Brandix KL370090G 300 Watts',
+            name: 'Ноутбук Lenovo',
             image: '/images/products/product-1.jpg',
             options: [
                 {
